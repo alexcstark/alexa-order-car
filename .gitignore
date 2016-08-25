@@ -7,7 +7,7 @@ work-stash
 # Logs
 logs
 *.log
-
+deploy
 # Runtime data
 pids
 *.pid
