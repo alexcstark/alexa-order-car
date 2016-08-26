@@ -8,6 +8,7 @@ export default function (app) { // LYFT 2FA - first call sends SMS to user
   app.post('/auth/lyftAuth', (req, res) => {
     console.log('phone number is ', req.body.phoneNumber);
     let url = 'http://' + CARVIS_API + '/lyft/phoneauth';
+    console.log('posting to', url)
     fetch(url, {
         method: 'POST',
         headers: {
