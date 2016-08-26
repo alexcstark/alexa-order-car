@@ -24,7 +24,7 @@ export default class Map extends React.Component {
   componentDidMount() {
     initMap();
   }
-  getDirections(origin, destination) {
-    let url = 'https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&key=AIzaSyBgePp9nXlZXQQfD8M88ZW8YpED-BkAD7Y';
-  }
+  // getDirections(origin, destination) {
+  //   let url = 'https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&key=AIzaSyBgePp9nXlZXQQfD8M88ZW8YpED-BkAD7Y';
+  // }
 }
